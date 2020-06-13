@@ -21,7 +21,7 @@ var tcpProxy = require("node-tcp-proxy")
 var udpProxy = require('udp-proxy')
 
 // DiscordModules
-const client = require('discord-rich-presence')('708901957690982430')
+const client = require('discord-rich-presence')('720668572136767609')
 
 
 var rConnected = null
@@ -389,7 +389,7 @@ function clientStartRProxy() {
                 shell.openExternal("fivem://connect/localhost:"+rPort)
                 mainWindow.webContents.executeJavaScript(`Swal.fire({
                     title: 'Conectado',
-                    html: 'Agora você está conectado ao ESXBrasil!',
+                    html: 'Agora você está conectado ao Nova Era RP!',
                     icon: 'success'
                 });`)
             }
