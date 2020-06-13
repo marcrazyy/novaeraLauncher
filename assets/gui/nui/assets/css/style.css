@@ -111,7 +111,7 @@ body {
 }
 
 a {
-  color: #3F51B5;
+  color: #d78101;
   transition: 0.5s;
 }
 
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
+  color: #000000;
 }
 
 .main-page {
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #3F51B5;
+  background: #000000;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -224,7 +224,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-size: 18px;
   font-weight: 500;
-  color: #9195a2;
+  color: #000000;
+  background: rgba(218, 131, 0, 0.98);
 }
 
 .section-with-bg {
@@ -243,11 +244,12 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background: rgba(218, 131, 0, 0.98);
 }
 
 @media (max-width: 991px) {
   #header {
-    background: rgba(6, 12, 34, 0.98);
+    background: rgba(218, 131, 0, 0.98);
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
@@ -261,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
+  background: rgba(218, 131, 0, 0.98);
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -396,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #3F51B5;
+  background-color: rgba(230, 230, 230, 0.98);
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -408,10 +410,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #3F51B5;
+  background: #d78101;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #3F51B5;
+  border: 2px solid #d78101;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -649,7 +651,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#3F51B5 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#d78101 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -695,7 +697,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #3F51B5;
+  border-left: 15px solid #d78101;
   transform: scale(20);
 }
 
@@ -1751,7 +1753,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: #db8505;
   padding: 60px 0 30px 0;
 }
 
@@ -1809,7 +1811,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #3F51B5;
+  border-bottom: 2px solid #000000;
 }
 
 #footer .footer-top .footer-links {
@@ -1887,4 +1889,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+.card {
+  margin: 10px;
 }

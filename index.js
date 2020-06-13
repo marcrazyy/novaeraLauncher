@@ -108,7 +108,7 @@ function preRequirementsCheck() {
                         } else {
                             mainWindow.webContents.executeJavaScript(`Swal.fire({
                                 title: 'Teamspeak 3 obrigatório',
-                                text: "Para poder jogar o ESXBrasil Roleplay, você precisa do Team Speak 3.",
+                                text: "Para poder jogar o NOVA ERA Roleplay, você precisa do Team Speak 3.",
                                 icon: 'warning',
                                 confirmButtonColor: '#3085d6',
                                 showCancelButton: true,
@@ -227,7 +227,7 @@ function connectTS3Server() {
     ts3Connected = true
     mainWindow.webContents.executeJavaScript(`Swal.fire({
         title: 'TS3 Conexão',
-        html: 'Conectando a você no ESXBrasil Roleplay Team Speak Server.',
+        html: 'Conectando a você no NOVA ERA Roleplay Team Speak Server.',
         allowOutsideClick: false,
         onBeforeOpen: () => {
             Swal.showLoading();
