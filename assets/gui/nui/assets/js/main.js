@@ -159,10 +159,15 @@
 
   // Buy tickets select the ticket type on click
   $('#buy-ticket-modal').on('show.bs.modal', function(event) {
+    debugger;
     var button = $(event.relatedTarget);
     var ticketType = button.data('ticket-type');
+    var ticketValor = button.data('ticket-valor');
+    var plano = ticketType + ' R$ ' + ticketValor;
     var modal = $(this);
-    modal.find('#ticket-type').val(ticketType);
+        modal.find('#ticket-type').val(ticketValor);
+        modal.find('.nameVip').html(plano);
+
   })
 
 })(jQuery);
