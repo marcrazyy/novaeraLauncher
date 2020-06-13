@@ -1,0 +1,28 @@
+directories:
+  output: dist
+  buildResources: build
+appId: NovaEraRP
+productName: NovaEraRP
+win:
+  target:
+    - nsis
+  icon: build/icon.ico
+nsis:
+  installerIcon: build/icon.ico
+  uninstallerIcon: build/uninstall.ico
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  runAfterFinish: true
+  createStartMenuShortcut: true
+  packElevateHelper: true
+  createDesktopShortcut: true
+  shortcutName: Nova Era RP
+  license: eula.txt
+publish:
+  - provider: github
+    owner: marcrazyy
+    repo: launcher
+    releaseType: release
+    token: <stripped sensitive data>
+    updaterCacheDirName: novaEra-launcher
+electronVersion: 8.3.1
