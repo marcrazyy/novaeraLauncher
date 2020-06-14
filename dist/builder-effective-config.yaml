@@ -21,7 +21,7 @@ nsis:
 publish:
   - provider: github
     owner: marcrazyy
-    repo: launcher
+    repo: novaeraLauncher
     releaseType: release
     token: <stripped sensitive data>
     updaterCacheDirName: novaEra-launcher
